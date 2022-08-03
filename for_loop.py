@@ -18,6 +18,24 @@ for number in range(1, 10):
     print(number)
 print(f"We have {count} even numbers")
 
+num = 1
+print("Printing message: ")
+for num in range(1, 10, 2):
+    print("Attempt", num, num * "*")
+
+successful = False
+for num in range(3):
+    print("Attempt")
+    if successful:
+        print("Successful")
+        break
+else:
+    print("Attempted 3 times and failed")
+
+for x in range(5):
+    for y in range(3):
+        print(f"({x}, {y})")
+
 names = ["John", "Tom", "Mike", "Amy", "Susana"]
 #names.append("Sam")
 #names.insert(0, "Sam")

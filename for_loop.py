@@ -23,9 +23,13 @@ names = ["John", "Tom", "Mike", "Amy", "Susana"]
 #names.insert(0, "Sam")
 #names.remove("Amy")
 #names.clear()
-names.reverse()
+#names.reverse()
 print("The name in the list: ")
-for name in names:
-    print(name)
+#items = [0, "John"]
+#items = (0, "John")
+#index, name = items
+
+for index, name in enumerate(names):
+    print(index, name)
 
 print("Done")

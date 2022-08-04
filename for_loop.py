@@ -1,8 +1,9 @@
-nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+nums = [1, 2, 3, 4, 5]
 item: int
-print("List number: ")
+print("List odd number: ")
 for item in nums:
-    print(item)
+    if item % 2 != 0:
+        print(item)
 
 #numbers = range(10)
 #numbers = range(5, 10)
@@ -34,7 +35,18 @@ else:
 
 for x in range(5):
     for y in range(3):
-        print(f"({x}, {y})")
+        print(f"[{y}, {x}]")
+
+print(type(5))
+print(type(range(5)))
+
+# Iterable
+#for x in "MySQL":
+    #print(x)
+
+for x in range(1, 15, 3):
+    print(x)
+
 
 names = ["John", "Tom", "Mike", "Amy", "Susana"]
 #names.append("Sam")
